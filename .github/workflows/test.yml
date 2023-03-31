@@ -9,3 +9,7 @@ jobs:
     steps:
       - name: Say hello
         run: echo "Hello world"
+    
+      - name: Run build
+        run: make run
+
